@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="order" id="order">
+      <h1>Форма связи</h1>
+      <button type="button" onclick="hide_form()" class="close" name="button"></button>
+      <div style="display: flex;">
+        <form class="" action="form.php" method="post">
+          <input type="text" class="input" name="name" placeholder="Имя" required><br><br>
+          <input type="tel" class="input" name="tel" placeholder="Телефон" required><br><br>
+          <textarea name="des" class="textarea" placeholder="Описание проекта" rows="8" cols="80" required></textarea><br><br>
+          <input type="submit" class="send_bt" name="" value="Отправить"><br>
+        </form>
+
+        <p style="padding-left: 50px;">
+          Заполните <b>форму</b> обратной связи<br><br><br>
+          Позвоните нам по телефону <b>45-45-24</b><br><br><br>
+          Напишите письмо <b>454524@mail.ru</b>
+        </p>
+      </div>
+    </div>
+    <div class="header">
+      <a href="/"><img src="img/heading.png" width="150px" height="40px" alt=""></a>
+      <div class="menu">
+        <a href="flats.php">Электромонтаж квартир</a>
+        <a href="houses.php">Электромонтаж домов</a>
+        <a href="rooms.php">Электромонтаж помещений</a>
+        <a href="about.php">О нас</a>
+      </div>
+      <h2>Тел. 45-45-24</h2>
+      <button type="button" class="order_bt" onclick="show_form()" name="button">Оставить заявку</button>
+    </div>
+
+<script type="text/javascript">
+  function show_form() {
+    document.getElementById('order').style = 'display: block;'
+
+    document.getElementById('arrow').style = 'display: none;'
+    document.getElementById('arrow2').style = 'display: none;'
+    document.getElementById('arrow3').style = 'display: none;'
+    document.getElementById('arrow4').style = 'display: none;'
+   }
+  function hide_form() {
+    document.getElementById('order').style = 'display: none;'
+
+    document.getElementById('arrow').style = 'display: block;'
+    document.getElementById('arrow2').style = 'display: block;'
+    document.getElementById('arrow3').style = 'display: block;'
+    document.getElementById('arrow4').style = 'display: block;'
+
+  }
+
+</script>
+  </body>
+</html>
