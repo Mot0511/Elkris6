@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Elkris - электромонтажные работы</title>
+    <meta name="description" content="Электромонтажные работы в Кирове. Качественное выполнение работы. Официальный сайт компании Элькрис.">
   <link rel="stylesheet" href="style.css">
   <style media="screen">
   ::-webkit-scrollbar-button {

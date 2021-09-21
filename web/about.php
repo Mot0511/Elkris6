@@ -2,7 +2,9 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Elkris - электромонтажные работы</title>
+    <meta name="description" content="Электромонтажные работы в Кирове. Качественное выполнение работы. Официальный сайт компании Элькрис.">
+
     <link rel="stylesheet" href="style.css">
     <style media="screen">
     .close{
